@@ -1,0 +1,115 @@
+
+.border {
+    border: 2px solid #ffffff!important;
+    border-top: 1px solid #f7dada!important;
+    border-bottom: 1px solid #f7dada!important;
+}
+
+label.ae.fa.label {
+    border: 1px solid #dad9d9!important;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.btn-primary {
+    border-color: #ffffff!important;
+    border-radius: 25px;
+}
+
+.light {
+    background-color: #d4d4d4;
+}
+
+.bg {
+    background-color: #888888;
+}
+
+
+ul.nav.nav-tabs>li>a {
+    color: #313131;
+}
+
+#des0 {
+	background-color: #313131;
+}
+
+.label-primary, .btn-primary {
+    background-color: #313131!important;
+    background-image: -webkit-linear-gradient(right,#636363 0,#313131 120%)!important;
+    border-radius: 25px;
+}
+
+
+label.label.border.btn.label-danger.tc.fl {
+    border-radius: 25px;
+}
+
+
+label.label.tc.border.btn.label-info.fl {
+    border-radius: 25px;
+}
+
+
+label.label.tc.border.btn.fl {
+    border-radius: 25px;
+}
+
+
+.hand.nosel.fl.uzr.borderg {
+    background-color: #fff!important;
+	width: 98%!important;
+    margin-top: 3px!important;
+    margin-left: 4px!important;
+    border-radius: 3px!important;
+    border: 1px!important;
+}
+
+
+
+div#tlogins ::-webkit-scrollbar {
+    width: 5px;
+    height: 10px
+}
+
+div#tlogins ::-webkit-scrollbar-button {
+    width: 5px;
+    height: 5px
+}
+
+div#tlogins ::-webkit-scrollbar-thumb {
+    background: 0 0;
+    border: 71px #fff;
+    border-radius: 31px;
+    background-color: #313131;
+}
+
+
+div#tlogins ::-webkit-scrollbar-thumb:active {
+    background: 0 0
+}
+
+div#tlogins ::-webkit-scrollbar-track {
+    background: #fff;
+    border: 65px #fff;
+    border-radius: 34px
+}
+
+div#tlogins ::-webkit-scrollbar-track:hover {
+    background: 0 0
+}
+
+div#tlogins ::-webkit-scrollbar-track:active {
+    background: 0 0
+}
+
+div#tlogins ::-webkit-scrollbar-corner {
+    background: 0 0
+}
+
+div#tlogins .fl.mini.u-msg {
+    margin-top: 3px!important;
+    border-radius: 3px!important
+}
+
+div#tlogins .u-topic.dots {
+    width: 800px;
+}
