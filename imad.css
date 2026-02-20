@@ -1,0 +1,86 @@
+/* تعيين الخلفية */
+body {
+    background: linear-gradient(135deg, #4e73df, #1cc88a); /* خلفية متدرجة */
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* تصميم العنوان */
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 50px;
+    color: #fff;
+}
+
+/* تنسيق الأزرار */
+button {
+    background-color: #1cc88a; /* لون جذاب للأزرار */
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* تأثير التفاعل على الأزرار */
+button:hover {
+    background-color: #17a673;
+}
+
+/* تنسيق الفقرات */
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 15px;
+    color: #fff;
+}
+
+/* قائمة التنقل */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #1cc88a;
+}
+
+/* تصميم النافذة المنبثقة */
+#popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+#popup h2 {
+    color: #fff;
+}
+
+#popup #closePopup {
+    color: #fff;
+    font-size: 1.5em;
+    cursor: pointer;
+}
